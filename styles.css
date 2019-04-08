@@ -1,0 +1,438 @@
+body {
+	margin: none;
+	padding: none;
+	background-image: url(330108-P9LJNN-60.jpg);
+	background-position: right;
+	background-repeat: no-repeat;
+	height: 100vh;
+	background-size: contain;
+	background-color: #F7F8FA;
+	width: 100vw;
+	overflow-x: hidden;
+	
+}
+@font-face {
+  	font-family: intro;
+   	src: url(fonts/Audrey-Bold.otf)
+}
+
+#nav{
+	margin: none;
+	padding: none;
+	position: fixed;
+	min-height: 100vh;
+	min-width: 25%;
+	top: 0%;
+	left: 0%;
+	z-index: 0;
+	background-image: url(rachel-lynette-french-717621-unsplash.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: aliceblue;
+	opacity: 0.9
+}
+#nav_layer{
+	z-index: 1;
+	margin: none;
+	padding: none;
+	position: fixed;
+	min-height: 100vh;
+	min-width: 25%;
+	top: 0%;
+	left: 0%;
+
+	background-color: black;
+	opacity:0.6;
+}
+.me{
+	z-index: 5;
+	border-radius: 50% 50%;
+	position: fixed;
+	top: 5vw;
+	left: 4vw
+}
+.me:hover{
+	transform: scale(1.1);
+}
+.list_items{
+	z-index: 10;
+	color: #FFA800;
+	list-style: none;
+	font-family: intro;
+	position: fixed;
+	top: 24vw;
+	left: 4vw;
+	font-size: 2vw;
+	line-height: 2;
+	opacity: 1 
+	
+}
+.main_intro {
+	font-family: intro;
+	font-weight: bolder;
+	line-height: 1.5em;
+	font-size: 3.5em;
+	letter-spacing: 0.3em;
+	position: absolute;
+	top: 17vw;
+	color: #19414A;
+	left: 42vw;
+
+}
+
+#page1>p{
+	font-family: intro;
+	position: absolute;
+	top: 45vw;
+	left: 65vw;
+	font-size: 17px;
+	color: #19414A;
+}
+#page2{
+	position: absolute;
+	top: 100%;
+	height: 100vh;
+}
+.content-wrapper{
+	position: relative;
+	left: 17vw;
+	font-family: intro;
+	background-color: #F4F5F9;
+	max-width: 80vw;
+	min-height: 220vw;
+	padding: 2vw
+}
+.content-wrapper h1{
+	position: relative;
+	top: 5vw;
+	padding-left: 15vw;
+	max-width: 50%;
+	color: #19545C;
+}
+
+
+.content-wrapper p{
+	position: relative;
+	top: 12vw;
+	padding-left: 15vw;
+	font-weight: 100;
+	max-width: 50%;
+	font-size: 18px;
+	letter-spacing: 1px;
+	word-spacing: 10px;
+	line-height: 2;
+	color: #19414A;
+	
+}
+
+.content-wrapper hr{
+	position: relative;
+	top: 5vw;
+	padding-left: 20vw;
+	max-width: 32vw;
+	color: #19414A;
+
+}
+
+.content1  h1{
+	position: relative;
+	top: 30vw;
+}
+
+.content1 > hr{
+	position: relative;
+	top: 30vw;
+}
+.list{
+	font-size: 15px;
+	position: relative;
+	top: 32vw;
+	padding-left: 15vw;
+	list-style: none
+}
+h3{
+	color:  #19414A;
+}
+.list li{
+	margin: 20px 0;
+}
+.bar{
+	max-width: 32vw;
+	background: #193845;
+	display: block;
+	height: 5px;
+	border: 1px solid rgba(0,0,0,0.3);
+	border-radius: 3px;
+	overflow: hidden;
+	box-shadow: 0 0 10px #2187e7b3;
+}
+.bar span{
+	height: 5px;
+	float: left;
+	background: #FFBB00;
+}
+
+.html{
+	width: 90%;
+}
+
+.css{
+	width: 90%;
+}
+.javascript{
+	width: 60%;
+}
+.ml{
+	width: 60%;
+}
+.matlab{
+	width: 55%;
+}
+
+.plc{
+	width: 80%;
+}
+.sql{
+	width: 70%;
+}
+.python{
+	width: 60%;
+}
+.c{
+	width: 75%
+}
+
+.content2  h1{
+	position: relative;
+	top: 45vw;
+}
+
+.content2 > hr{
+	position: relative;
+	top: 45vw;
+}
+.image{
+	padding: 1vw;
+	position: relative;
+	max-height: 17vw;
+	top: 55vw;
+	left: 12vw;
+	border-style: solid;
+	border-color: white;
+	border-radius: 50% 50%
+}
+.image:hover{
+	transform: scale(1.1);
+}
+.content2 .p1{
+	position: relative;
+	top: 55vw;
+	max-width: 18vw
+}
+.content2 .p2{
+	position: relative;
+	left: 19vw;
+	max-width: 18vw;
+	top: 42.3vw
+}
+.content2 .p3{
+	position: relative;
+	left: 39vw;
+	max-width: 18vw;
+	top: 37vw
+}
+.content3  h1{
+	position: relative;
+	top: 60vw;
+}
+.content3 > hr{
+	position: relative;
+	top: 60vw;
+}
+.LI-profile-badge{
+	position: relative;
+	top: 70vw;
+	left: 18vw
+}
+
+.gmail{
+	position: relative;
+	top: 50vw;
+	left: 45vw;
+	padding: 1vw
+}
+.gmail:hover{
+	background-color: #5C888B;
+	border-radius: 50% 50%;
+	transform: scale(1.1);
+}
+.image:hover{
+	background-color: #5C888B;
+	border-radius: 50% 50%;
+	cursor: pointer
+}
+.nav_bar{
+	list-style: none;
+	color: yellow;
+	text-decoration: none;
+	opacity: 1 !important;
+	z-index: 100 !important
+	
+}
+.nav_bar:hover{
+	color: red;
+}
+.menu{
+	opacity: 0;
+}
+
+/* Media Quaries */
+@media screen and (max-width:700px){
+	body{
+		max-height: 100vh;
+		max-width: 100vw;
+		overflow-x: hidden;
+	}
+	#nav{
+		z-index: 10;
+		position: fixed;
+		top: 0%;
+		display: block;
+		min-height: 15vw;
+		min-width: 100%;
+		background-attachment: fixed;
+		color: azure;
+	}
+	#nav_layer{
+		color: azure;
+		z-index: 10;
+		position: fixed;
+		background-attachment: fixed;
+		top: 0%;
+		display: block;
+		min-height: 15vw;
+		min-width: 100%;
+	}
+	.main_intro{
+		position: relative;
+		top: 85vw;
+		left: 8vw;
+		font-size: 45px;
+	}
+	#page1 p{
+		position: relative;
+		top: 95vw;
+		left: 30vw;
+		font-size: 15px;
+	}
+	.me{
+		position: absolute;
+		z-index: 0;
+		top: 20vw;
+		left: 28vw
+	}
+	.content, .content1, .content2, .content3{
+		position: relative;
+		right: 2vw
+	}
+	.content hr, .content1 hr, .content2 hr, .content3 hr {
+		position: relative;
+		right: 15vw;
+		min-width: 100vw;
+	}
+	.content p{
+		min-width: 80vw;
+		right: 18vw;
+		
+	}
+	.image{
+		position: relative;
+		display: block;
+		min-height: 50vw;
+		left: 5vw;
+		margin-bottom: 80vw
+	}
+	.p1{
+		position: absolute !important;
+		display: block;
+		min-width: 60vw;
+		padding-top: 80vw;
+		left: -20px
+		
+	}
+	.p2{
+		position: absolute !important;
+		display: block;
+		min-width: 60vw;
+		padding-top: 230vw;
+		left: -30px !important
+		
+	}
+	.p3{
+		position: absolute !important;
+		display: block;
+		min-width: 60vw;
+		padding-top: 370vw;
+		left: -30px !important
+		
+	}
+	.LI-profile-badge{
+		position: absolute;
+		padding-top: 20vw;
+		padding-bottom:20px;
+		left: -1px
+		
+	}
+	.gmail{
+		position: absolute !important;
+	 	padding-top: 170vw;
+		padding-bottom: 5px;
+		left: -0.5px;
+		padding-left: 15vw
+	}
+	.menu{
+		z-index: 100;
+		opacity: 1;
+		position: absolute;
+		top: 1%;
+		left: 89%;
+		width: 40px;
+		border-radius: 50% 50%;
+	}
+	.list_items{
+		position: fixed;
+		font-size: 30px;
+		top: 7vw;
+		min-width: 100%;
+		opacity: 0;
+		background-color: brown;
+		text-align: center;
+		left: 0%;
+		padding-left: 400px;
+		overflow-x: hidden;
+		
+	}
+		.list_items1{
+		position: fixed;
+		font-size: 30px;
+		top: 7vw;
+		min-width: 100%;
+		opacity: 1;
+		background-color: brown;
+		text-align: center;
+		left: 0%;
+		overflow-x: hidden;
+		
+	}
+	
+	.nav_bar{
+		color: ghostwhite;
+		min-width: 100vw;
+		overflow-x: hidden;
+	}
+	#nav_layer{
+		opacity: 0.9 !important;
+		overflow-x: hidden;
+	}
+	
+}
